@@ -100,7 +100,7 @@ renderOn: html
 		html input type: 'button'; value: 'send'; onClick: [self handleSend]
 	].
 	
-	html footerDiv style: 'font-size: 80%; margin-top : 15px; border : 1px solid; background-color : #F5F5F5' ; with: [
+	html div style: 'font-size: 80%; margin-top : 15px; border : 1px solid; background-color : #F5F5F5' ; with: [
 		html div: [
 				html span style: 'color: red'; with: 'Google Chrome 26.0.1403.0 or above is required.'.
 				html div: [

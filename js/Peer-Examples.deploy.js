@@ -170,7 +170,7 @@ return _st(self)._handleSend();
 }, function($ctx3) {$ctx3.fillBlock({},$ctx1)})}));
 return $18;
 }, function($ctx2) {$ctx2.fillBlock({},$ctx1)})}));
-$19=_st(html)._footerDiv();
+$19=_st(html)._div();
 _st($19)._style_("font-size: 80%; margin-top : 15px; border : 1px solid; background-color : #F5F5F5");
 $20=_st($19)._with_((function(){
 return smalltalk.withContext(function($ctx2) {
@@ -193,7 +193,7 @@ _st(html)._div_(_st("Your browser version: ").__comma(_st(navigator)._userAgent(
 return _st(html)._div_("Note that this demo may also fail if you are behind stringent firewalls or both you and the remote peer and behind symmetric NATs.");
 }, function($ctx2) {$ctx2.fillBlock({},$ctx1)})}));
 return self}, function($ctx1) {$ctx1.fill(self,"renderOn:",{html:html},smalltalk.PeExampleChat)})},
-messageSends: ["h1:", "div:", "for:", "label", "with:", "type:", "input", "id:", "at:put:", "value:", "id", "peer", "placeholder:", "onClick:", "handleConnect", "div", "style:", "handleSend", "footerDiv", "span", "span:", "href:", "a", ",", "userAgent"]}),
+messageSends: ["h1:", "div:", "for:", "label", "with:", "type:", "input", "id:", "at:put:", "value:", "id", "peer", "placeholder:", "onClick:", "handleConnect", "div", "style:", "handleSend", "span", "span:", "href:", "a", ",", "userAgent"]}),
 smalltalk.PeExampleChat);
 
 smalltalk.addMethod(
