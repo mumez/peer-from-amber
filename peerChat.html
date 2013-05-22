@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+  <title>Amber Smalltalk P2P Chat</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <!--<script src="./js/lib/enchant.js"></script>-->
+  <script src="./js/lib/peer.js"></script>
+  <script type='text/javascript' src='./js/amber.js'></script> 
+</head> 
+
+<body style="margin:0; padding: 0;">
+
+<script type='text/javascript'>
+	loadAmber({
+		packages: ['Peer-Core', 'Peer-Examples'],
+		ready: function() {smalltalk.PeExampleChat._main()}})
+</script> 
+</body> 
+
+</html> 
