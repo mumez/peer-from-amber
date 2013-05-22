@@ -12,7 +12,7 @@ Use copyAll.sh or copyAll.bat, according to your platform.
 2. open the demo page ([http://localhost:4000/peerFromAmber.html](http://localhost:4000/peerFromAmber.html)) with your favorite web browser.
 
 ## Examples ##
-See the 'Peer-Examples' package. There is a simple text chat application. It was ported from peer.js chat example.
+See the 'Peer-Examples' package. There is a [simple text chat application](https://github.com/mumez/peer-from-amber/blob/master/st/Peer-Examples.st). It was ported from peer.js chat example.
 
 ## License ##
 [MIT license](http://opensource.org/licenses/MIT)
